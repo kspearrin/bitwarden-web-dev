@@ -1145,7 +1145,7 @@
     "message": "Add a new YubiKey to your account"
   },
   "twoFactorYubikeyPlugIn": {
-    "message": "Plug the YubiKey (NEO or 4 series) into your computer's USB port."
+    "message": "Plug the YubiKey into your computer's USB port."
   },
   "twoFactorYubikeySelectKey": {
     "message": "Select the first empty YubiKey input field below."
@@ -1225,11 +1225,20 @@
   "twoFactorU2fAdd": {
     "message": "Add a FIDO U2F security key to your account"
   },
-  "twoFactorU2fPlugIn": {
-    "message": "Plug the security key into your computer's USB port."
+  "readKey": {
+    "message": "Read Key"
+  },
+  "twoFactorU2fGiveName": {
+    "message": "Give the security key a friendly name to identity it."
+  },
+  "twoFactorU2fPlugInReadKey": {
+    "message": "Plug the security key into your computer's USB port and click the \"Read Key\" button."
   },
   "twoFactorU2fTouchButton": {
     "message": "If the security key has a button, touch it."
+  },
+  "twoFactorU2fSaveForm": {
+    "message": "Save the form."
   },
   "twoFactorU2fWarning": {
     "message": "Due to platform limitations, FIDO U2F cannot be used on all Bitwarden applications. You should enable another two-step login provider so that you can access your account when FIDO U2F cannot be used. Supported platforms:"
