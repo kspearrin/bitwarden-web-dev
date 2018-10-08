@@ -1225,6 +1225,9 @@
   "twoFactorU2fAdd": {
     "message": "Add a FIDO U2F security key to your account"
   },
+  "removeU2fConfirmation": {
+    "message": "Are you sure you want to remove this security key?"
+  },
   "readKey": {
     "message": "Read Key"
   },
