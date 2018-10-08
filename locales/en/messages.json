@@ -1231,8 +1231,11 @@
   "readKey": {
     "message": "Read Key"
   },
+  "keyCompromised": {
+    "message": "Key is compromised."
+  },
   "twoFactorU2fGiveName": {
-    "message": "Give the security key a friendly name."
+    "message": "Give the security key a friendly name to identify it."
   },
   "twoFactorU2fPlugInReadKey": {
     "message": "Plug the security key into your computer's USB port and click the \"Read Key\" button."
