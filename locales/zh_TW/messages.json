@@ -1,0 +1,2448 @@
+{
+  "pageTitle": {
+    "message": "$APP_NAME$ 網頁版密碼庫",
+    "description": "The title of the website in the browser window.",
+    "placeholders": {
+      "app_name": {
+        "content": "$1",
+        "example": "Bitwarden"
+      }
+    }
+  },
+  "whatTypeOfItem": {
+    "message": "帳戶類型為何？"
+  },
+  "name": {
+    "message": "名稱"
+  },
+  "uri": {
+    "message": "URI"
+  },
+  "uriPosition": {
+    "message": "URI $POSITION$",
+    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
+    "placeholders": {
+      "position": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "newUri": {
+    "message": "新增 URI"
+  },
+  "username": {
+    "message": "使用者名稱"
+  },
+  "password": {
+    "message": "密碼"
+  },
+  "notes": {
+    "message": "筆記"
+  },
+  "customFields": {
+    "message": "自訂欄位"
+  },
+  "cardholderName": {
+    "message": "持卡人姓名"
+  },
+  "number": {
+    "message": "號碼"
+  },
+  "brand": {
+    "message": "品牌"
+  },
+  "expiration": {
+    "message": "到期"
+  },
+  "securityCode": {
+    "message": "安全碼 (CVV)"
+  },
+  "identityName": {
+    "message": "身分名稱"
+  },
+  "company": {
+    "message": "公司"
+  },
+  "ssn": {
+    "message": "社會保險號碼"
+  },
+  "passportNumber": {
+    "message": "護照號碼"
+  },
+  "licenseNumber": {
+    "message": "許可證編號"
+  },
+  "email": {
+    "message": "電子郵件"
+  },
+  "phone": {
+    "message": "電話號碼"
+  },
+  "january": {
+    "message": "一月"
+  },
+  "february": {
+    "message": "二月"
+  },
+  "march": {
+    "message": "三月"
+  },
+  "april": {
+    "message": "四月"
+  },
+  "may": {
+    "message": "五月"
+  },
+  "june": {
+    "message": "六月"
+  },
+  "july": {
+    "message": "七月"
+  },
+  "august": {
+    "message": "八月"
+  },
+  "september": {
+    "message": "九月"
+  },
+  "october": {
+    "message": "十月"
+  },
+  "november": {
+    "message": "十一月"
+  },
+  "december": {
+    "message": "十二月"
+  },
+  "title": {
+    "message": "稱呼"
+  },
+  "mr": {
+    "message": "Mr"
+  },
+  "mrs": {
+    "message": "Mrs"
+  },
+  "ms": {
+    "message": "Ms"
+  },
+  "dr": {
+    "message": "Dr"
+  },
+  "expirationMonth": {
+    "message": "到期月份"
+  },
+  "expirationYear": {
+    "message": "到期年份"
+  },
+  "authenticatorKeyTotp": {
+    "message": "驗證器金鑰 (TOTP)"
+  },
+  "folder": {
+    "message": "資料夾"
+  },
+  "newCustomField": {
+    "message": "新增自訂欄位"
+  },
+  "value": {
+    "message": "值"
+  },
+  "cfTypeText": {
+    "message": "文字"
+  },
+  "cfTypeHidden": {
+    "message": "隱藏"
+  },
+  "cfTypeBoolean": {
+    "message": "布林值"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "unassigned": {
+    "message": "未指派"
+  },
+  "noneFolder": {
+    "message": "（未分類）",
+    "description": "This is the folder for uncategorized items"
+  },
+  "addFolder": {
+    "message": "新增資料夾"
+  },
+  "editFolder": {
+    "message": "編輯資料夾"
+  },
+  "baseDomain": {
+    "message": "基底網域"
+  },
+  "host": {
+    "message": "主機",
+    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
+  },
+  "exact": {
+    "message": "完全符合"
+  },
+  "startsWith": {
+    "message": "開始於"
+  },
+  "regEx": {
+    "message": "規則運算式",
+    "description": "A programming term, also known as 'RegEx'."
+  },
+  "matchDetection": {
+    "message": "相符偵測",
+    "description": "URI match detection for auto-fill."
+  },
+  "defaultMatchDetection": {
+    "message": "預設相符偵測",
+    "description": "Default URI match detection for auto-fill."
+  },
+  "never": {
+    "message": "永不"
+  },
+  "toggleVisibility": {
+    "message": "切換可見度"
+  },
+  "generatePassword": {
+    "message": "產生密碼"
+  },
+  "checkPassword": {
+    "message": "檢查密碼是否已外洩。"
+  },
+  "passwordExposed": {
+    "message": "此密碼已外洩了 $VALUE$ 次，應立即變更密碼。",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "passwordSafe": {
+    "message": "任何已知的外洩密碼資料庫中都沒有此密碼，它目前是安全的。"
+  },
+  "save": {
+    "message": "儲存"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "canceled": {
+    "message": "已取消"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "delete": {
+    "message": "刪除"
+  },
+  "favorite": {
+    "message": "我的最愛"
+  },
+  "unfavorite": {
+    "message": "取消收藏"
+  },
+  "edit": {
+    "message": "編輯"
+  },
+  "searchCollection": {
+    "message": "搜尋收藏"
+  },
+  "searchFolder": {
+    "message": "搜尋資料夾"
+  },
+  "searchFavorites": {
+    "message": "搜尋我的最愛"
+  },
+  "searchType": {
+    "message": "搜尋類型",
+    "description": "Search item type"
+  },
+  "searchVault": {
+    "message": "搜尋"
+  },
+  "allItems": {
+    "message": "所有項目"
+  },
+  "favorites": {
+    "message": "我的最愛"
+  },
+  "types": {
+    "message": "類型"
+  },
+  "typeLogin": {
+    "message": "登入"
+  },
+  "typeCard": {
+    "message": "信用卡"
+  },
+  "typeIdentity": {
+    "message": "身分"
+  },
+  "typeSecureNote": {
+    "message": "安全筆記"
+  },
+  "folders": {
+    "message": "資料夾"
+  },
+  "collections": {
+    "message": "收藏"
+  },
+  "firstName": {
+    "message": "名"
+  },
+  "middleName": {
+    "message": "中間名"
+  },
+  "lastName": {
+    "message": "姓"
+  },
+  "address1": {
+    "message": "地址 1"
+  },
+  "address2": {
+    "message": "地址 2"
+  },
+  "address3": {
+    "message": "地址 3"
+  },
+  "cityTown": {
+    "message": "市\/鎮"
+  },
+  "stateProvince": {
+    "message": "州\/省"
+  },
+  "zipPostalCode": {
+    "message": "郵遞區號"
+  },
+  "country": {
+    "message": "國家"
+  },
+  "shared": {
+    "message": "共用"
+  },
+  "attachments": {
+    "message": "附件"
+  },
+  "select": {
+    "message": "選擇"
+  },
+  "addItem": {
+    "message": "新增項目"
+  },
+  "editItem": {
+    "message": "編輯項目"
+  },
+  "ex": {
+    "message": "例如",
+    "description": "Short abbreviation for 'example'."
+  },
+  "other": {
+    "message": "其他"
+  },
+  "share": {
+    "message": "分享"
+  },
+  "valueCopied": {
+    "message": "已複製 $VALUE$",
+    "description": "Value has been copied to the clipboard.",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "Password"
+      }
+    }
+  },
+  "copyValue": {
+    "message": "複製值",
+    "description": "Copy value to clipboard"
+  },
+  "copyPassword": {
+    "message": "複製密碼",
+    "description": "Copy password to clipboard"
+  },
+  "copyUsername": {
+    "message": "複製使用者名稱",
+    "description": "Copy username to clipboard"
+  },
+  "copyNumber": {
+    "message": "複製號碼",
+    "description": "Copy credit card number"
+  },
+  "copySecurityCode": {
+    "message": "複製安全代碼",
+    "description": "Copy credit card security code (CVV)"
+  },
+  "copyUri": {
+    "message": "複製 URI",
+    "description": "Copy URI to clipboard"
+  },
+  "myVault": {
+    "message": "密碼庫"
+  },
+  "vault": {
+    "message": "密碼庫"
+  },
+  "shareSelected": {
+    "message": "分享選取的項目"
+  },
+  "deleteSelected": {
+    "message": "刪除選取的項目"
+  },
+  "moveSelected": {
+    "message": "移動選取的項目"
+  },
+  "selectAll": {
+    "message": "全選"
+  },
+  "unselectAll": {
+    "message": "取消全選"
+  },
+  "launch": {
+    "message": "啟動"
+  },
+  "newAttachment": {
+    "message": "新增附件"
+  },
+  "deletedAttachment": {
+    "message": "附件已刪除"
+  },
+  "deleteAttachmentConfirmation": {
+    "message": "確定要刪除此附件嗎？"
+  },
+  "attachmentSaved": {
+    "message": "附件已儲存。"
+  },
+  "file": {
+    "message": "檔案"
+  },
+  "selectFile": {
+    "message": "選擇檔案。"
+  },
+  "maxFileSize": {
+    "message": "最大檔案大小為 100MB。"
+  },
+  "updateKey": {
+    "message": "更新加密金鑰前不能使用此功能。"
+  },
+  "addedItem": {
+    "message": "新增項目"
+  },
+  "editedItem": {
+    "message": "已編輯項目"
+  },
+  "sharedItem": {
+    "message": "已分享項目"
+  },
+  "sharedItems": {
+    "message": "已分享項目"
+  },
+  "deleteItem": {
+    "message": "刪除項目"
+  },
+  "deleteFolder": {
+    "message": "刪除資料夾"
+  },
+  "deleteAttachment": {
+    "message": "刪除附件"
+  },
+  "deleteItemConfirmation": {
+    "message": "確定要刪除此項目嗎?"
+  },
+  "deletedItem": {
+    "message": "已刪除項目"
+  },
+  "deletedItems": {
+    "message": "已刪除項目"
+  },
+  "movedItems": {
+    "message": "已移動項目"
+  },
+  "overwritePasswordConfirmation": {
+    "message": "您確定要覆寫目前的密碼嗎？"
+  },
+  "editedFolder": {
+    "message": "已編輯資料夾"
+  },
+  "addedFolder": {
+    "message": "已新增資料夾"
+  },
+  "deleteFolderConfirmation": {
+    "message": "您確定要刪除此資料夾嗎？"
+  },
+  "deletedFolder": {
+    "message": "已刪除的資料夾"
+  },
+  "loggedOut": {
+    "message": "已登出"
+  },
+  "loginExpired": {
+    "message": "您的登入階段已過期。"
+  },
+  "logOutConfirmation": {
+    "message": "您確定要登出嗎？"
+  },
+  "logOut": {
+    "message": "登出"
+  },
+  "ok": {
+    "message": "好"
+  },
+  "yes": {
+    "message": "是"
+  },
+  "no": {
+    "message": "否"
+  },
+  "loginOrCreateNewAccount": {
+    "message": "登入或新增帳戶。"
+  },
+  "createAccount": {
+    "message": "新增帳戶"
+  },
+  "logIn": {
+    "message": "登入"
+  },
+  "submit": {
+    "message": "送出"
+  },
+  "emailAddressDesc": {
+    "message": "您將使用您的電子郵件地址登入。"
+  },
+  "yourName": {
+    "message": "您的姓名"
+  },
+  "yourNameDesc": {
+    "message": "我們應該怎樣稱呼您?"
+  },
+  "masterPass": {
+    "message": "主密碼"
+  },
+  "masterPassDesc": {
+    "message": "主密碼是您存取密碼庫的密碼。請勿忘記主密碼，我們無法將您的主密碼復原或重設。"
+  },
+  "masterPassHintDesc": {
+    "message": "主密碼提示可以在您忘記主密碼時幫助您回憶主密碼。"
+  },
+  "reTypeMasterPass": {
+    "message": "重新輸入主密碼"
+  },
+  "masterPassHint": {
+    "message": "主密碼提示 (選用)"
+  },
+  "masterPassHintLabel": {
+    "message": "主密碼提示"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "passwordHint": {
+    "message": "密碼提示"
+  },
+  "enterEmailToGetHint": {
+    "message": "請輸入您的帳户電子郵件地址以接收主密碼提示。"
+  },
+  "getMasterPasswordHint": {
+    "message": "取得主密碼提示"
+  },
+  "emailRequired": {
+    "message": "必須填入電子郵件地址 。"
+  },
+  "invalidEmail": {
+    "message": "無效的電子郵件地址。"
+  },
+  "masterPassRequired": {
+    "message": "必須填入主密碼。"
+  },
+  "masterPassLength": {
+    "message": "主密碼需要至少 8 個字元。"
+  },
+  "masterPassDoesntMatch": {
+    "message": "兩次填寫的主密碼不相符。"
+  },
+  "newAccountCreated": {
+    "message": "帳戶已建立！現在可以登入了。"
+  },
+  "masterPassSent": {
+    "message": "已寄出包含您主密碼提示的電子郵件。"
+  },
+  "unexpectedError": {
+    "message": "發生了未預期的錯誤。"
+  },
+  "emailAddress": {
+    "message": "電子郵件地址"
+  },
+  "yourVaultIsLocked": {
+    "message": "密碼庫已鎖定。驗證主密碼以繼續。"
+  },
+  "unlock": {
+    "message": "解鎖"
+  },
+  "invalidMasterPassword": {
+    "message": "無效的主密碼"
+  },
+  "lockNow": {
+    "message": "立即鎖定"
+  },
+  "noItemsInList": {
+    "message": "沒有項目可顯示。"
+  },
+  "noCollectionsInList": {
+    "message": "沒有可顯示的收藏。"
+  },
+  "noGroupsInList": {
+    "message": "沒有可顯示的群組。"
+  },
+  "noUsersInList": {
+    "message": "沒有可顯示的使用者。"
+  },
+  "noEventsInList": {
+    "message": "沒有可顯示的事件。"
+  },
+  "newOrganization": {
+    "message": "新增組織"
+  },
+  "noOrganizationsList": {
+    "message": "您沒有加入任何組織。同一組織的使用者可以安全地分享登入帳密等資料。"
+  },
+  "versionNumber": {
+    "message": "版本 $VERSION_NUMBER$",
+    "placeholders": {
+      "version_number": {
+        "content": "$1",
+        "example": "1.2.3"
+      }
+    }
+  },
+  "enterVerificationCodeApp": {
+    "message": "輸入驗證器應用程式提供的 6 位數驗證碼。"
+  },
+  "enterVerificationCodeEmail": {
+    "message": "輸入已傳送至 $EMAIL$ 的 6 位數驗證碼。",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "example@gmail.com"
+      }
+    }
+  },
+  "verificationCodeEmailSent": {
+    "message": "驗證碼已傳送至 $EMAIL$。",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "example@gmail.com"
+      }
+    }
+  },
+  "rememberMe": {
+    "message": "記住我的登入資訊"
+  },
+  "sendVerificationCodeEmailAgain": {
+    "message": "再次傳送​​包含驗證碼的電子郵件"
+  },
+  "useAnotherTwoStepMethod": {
+    "message": "使用另一種兩步驟登入方法"
+  },
+  "insertYubiKey": {
+    "message": "將您的 YubiKey 插入電腦的 USB 連接埠，然後按一下它的按鈕。"
+  },
+  "insertU2f": {
+    "message": "將您的安全鑰匙插入電腦的 USB 連接埠，然後按一下它的按鈕（如有的話）。"
+  },
+  "loginUnavailable": {
+    "message": "無法登入"
+  },
+  "noTwoStepProviders": {
+    "message": "此帳戶已啟用兩步驟登入，但是本瀏覽器不支援已設定的兩步驟登入方式。"
+  },
+  "noTwoStepProviders2": {
+    "message": "請使用已支援的瀏覽器（例如 Chrome ），及／或新增可以更好地跨瀏覽器的兩步驟登入方法（例如驗證器應用程式）。"
+  },
+  "twoStepOptions": {
+    "message": "兩步驟登入選項"
+  },
+  "recoveryCodeDesc": {
+    "message": "無法使用任何兩步驟登入方式？用復原碼停用所有兩步驟登入方式。"
+  },
+  "recoveryCodeTitle": {
+    "message": "復原碼"
+  },
+  "authenticatorAppTitle": {
+    "message": "驗證器應用程式"
+  },
+  "authenticatorAppDesc": {
+    "message": "使用驗證器應用程式 （如 Authy 或 Google Authenticator） 產生基於時間的驗證碼。",
+    "description": "'Authy' and 'Google Authenticator' are product names and should not be translated."
+  },
+  "yubiKeyTitle": {
+    "message": "YubiKey OTP 安全鑰匙"
+  },
+  "yubiKeyDesc": {
+    "message": "使用 YubiKey 存取您的帳戶。相容於 YubiKey 4, 4 Nano, 4C, 和 NEO 裝置。"
+  },
+  "duoDesc": {
+    "message": "與 Duo Security 驗證，可使用 Duo Mobile 程式， SMS ，致電或 U2F 安全鑰匙。",
+    "description": "'Duo Security' and 'Duo Mobile' are product names and should not be translated."
+  },
+  "duoOrganizationDesc": {
+    "message": "使用 Duo Security 驗證您的組織，可使用 Duo Mobile 程式， SMS ，致電或 U2F 安全鑰匙。",
+    "description": "'Duo Security' and 'Duo Mobile' are product names and should not be translated."
+  },
+  "u2fDesc": {
+    "message": "使用任何啟用了 FIDO U2F 的安全鑰匙來存取您的帳戶。"
+  },
+  "u2fTitle": {
+    "message": "FIDO U2F 安全鑰匙"
+  },
+  "emailTitle": {
+    "message": "電子郵件"
+  },
+  "emailDesc": {
+    "message": "驗證碼將使用電子郵件傳送給您。"
+  },
+  "continue": {
+    "message": "繼續"
+  },
+  "organization": {
+    "message": "組織"
+  },
+  "organizations": {
+    "message": "組織"
+  },
+  "shareDesc": {
+    "message": "選擇您希望分享這個項目的組織。項目的擁有權將會轉移到組織。一經分享，您將不再是此項目的直接擁有者。"
+  },
+  "shareManyDesc": {
+    "message": "選擇您希望分享這些項目的組織。這些項目的擁有權將會轉移到組織。一經分享，您將不再是這些項目的直接擁有者。"
+  },
+  "collectionsDesc": {
+    "message": "Edit the collections that this item is being shared with. Only organization users with access to these collections will be able to see this item."
+  },
+  "deleteSelectedItemsDesc": {
+    "message": "You have selected $COUNT$ item(s) to delete. Are you sure you want to delete all of these items?",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "moveSelectedItemsDesc": {
+    "message": "Choose a folder that you would like to move the $COUNT$ selected item(s) to.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "shareSelectedItemsDesc": {
+    "message": "You have selected $COUNT$ item(s). $SHAREABLE_COUNT$ items are sharable, $NONSHAREABLE_COUNT$ are not. Items with attachments must be shared individually.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      },
+      "shareable_count": {
+        "content": "$2",
+        "example": "8"
+      },
+      "nonshareable_count": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "verificationCodeTotp": {
+    "message": "驗證碼 (TOTP)"
+  },
+  "copyVerificationCode": {
+    "message": "複製驗證碼"
+  },
+  "warning": {
+    "message": "警告"
+  },
+  "exportWarning": {
+    "message": "您的密碼將匯出成未加密的 .csv 檔案。您不應將它存放或經由未經加密的方式傳送（例如電子郵件）。用完後請立即將它刪除。"
+  },
+  "exportMasterPassword": {
+    "message": "輸入您的主密碼以匯出密碼庫資料。"
+  },
+  "exportVault": {
+    "message": "匯出密碼庫"
+  },
+  "exportSuccess": {
+    "message": "已匯出您的密碼庫資料。"
+  },
+  "passwordGenerator": {
+    "message": "密碼產生器"
+  },
+  "minNumbers": {
+    "message": "數字"
+  },
+  "minSpecial": {
+    "message": "符號",
+    "description": "Minimum Special Characters"
+  },
+  "ambiguous": {
+    "message": "避免易混淆的字元"
+  },
+  "regeneratePassword": {
+    "message": "重新產生密碼"
+  },
+  "length": {
+    "message": "長度"
+  },
+  "passwordHistory": {
+    "message": "密碼歷史記錄"
+  },
+  "noPasswordsInList": {
+    "message": "沒有密碼可顯示。"
+  },
+  "clear": {
+    "message": "清除"
+  },
+  "accountUpdated": {
+    "message": "帳戶已更新"
+  },
+  "changeEmail": {
+    "message": "變更電子郵件"
+  },
+  "newEmail": {
+    "message": "新電子郵件"
+  },
+  "code": {
+    "message": "代碼"
+  },
+  "changeEmailDesc": {
+    "message": "We have emailed a verification code to $EMAIL$. Please check your email for this code and enter it below to finalize your the email address change.",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "john.smith@example.com"
+      }
+    }
+  },
+  "loggedOutWarning": {
+    "message": "Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
+  },
+  "emailChanged": {
+    "message": "電子郵件已更改"
+  },
+  "logBackIn": {
+    "message": "請重新登入。"
+  },
+  "logBackInOthersToo": {
+    "message": "Please log back in. If you are using other Bitwarden applications log out and back in to those as well."
+  },
+  "changeMasterPassword": {
+    "message": "變更主密碼"
+  },
+  "masterPasswordChanged": {
+    "message": "已變更主密碼"
+  },
+  "currentMasterPass": {
+    "message": "目前主密碼"
+  },
+  "newMasterPass": {
+    "message": "新的主密碼"
+  },
+  "confirmNewMasterPass": {
+    "message": "確認新密碼"
+  },
+  "encKeySettings": {
+    "message": "Encryption Key Settings"
+  },
+  "kdfAlgorithm": {
+    "message": "KDF Algorithm"
+  },
+  "kdfIterations": {
+    "message": "KDF Iterations"
+  },
+  "kdfIterationsDesc": {
+    "message": "Higher KDF iterations can help protect your master password from being brute forced by an attacker. We recommend a value of $VALUE$ or more.",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "100,000"
+      }
+    }
+  },
+  "kdfIterationsWarning": {
+    "message": "Setting your KDF iterations too high could result in poor performance when logging into (and unlocking) Bitwarden on devices with slower CPUs. We recommend that you increase the value in increments of $INCREMENT$ and then test all of your devices.",
+    "placeholders": {
+      "increment": {
+        "content": "$1",
+        "example": "50,000"
+      }
+    }
+  },
+  "changeKdf": {
+    "message": "Change KDF"
+  },
+  "encKeySettingsChanged": {
+    "message": "Encryption Key Settings Changed"
+  },
+  "dangerZone": {
+    "message": "危險區域"
+  },
+  "dangerZoneDesc": {
+    "message": "小心, 這些動作是無法挽回的！"
+  },
+  "deauthorizeSessions": {
+    "message": "Deauthorize Sessions"
+  },
+  "deauthorizeSessionsDesc": {
+    "message": "Concerned your account is logged in on another device? Proceed below to deauthorize all computers or devices that you have previously used. This security step is recommended if you previously used a public PC or accidentally saved your password on a device that isn't yours. This step will also clear all previously remembered two-step login sessions."
+  },
+  "deauthorizeSessionsWarning": {
+    "message": "Proceeding will also log you out of your current session, requiring you to log back in. You will also be prompted for two-step login again, if enabled. Active sessions on other devices may continue to remain active for up to one hour."
+  },
+  "sessionsDeauthorized": {
+    "message": "All Sessions Deauthorized"
+  },
+  "purgeVault": {
+    "message": "清除密碼庫"
+  },
+  "purgeVaultDesc": {
+    "message": "Proceed below to delete all items and folders in your vault. Items that belong to an organization that you share with will not be deleted."
+  },
+  "purgeVaultWarning": {
+    "message": "清除密碼庫是永久性的。將無法被還原。"
+  },
+  "vaultPurged": {
+    "message": "已清除您的密碼庫資料。"
+  },
+  "deleteAccount": {
+    "message": "刪除帳戶"
+  },
+  "deleteAccountDesc": {
+    "message": "Proceed below to delete your account and all associated data."
+  },
+  "deleteAccountWarning": {
+    "message": "Deleting your account is permanent. It cannot be undone."
+  },
+  "accountDeleted": {
+    "message": "帳戶已刪除"
+  },
+  "accountDeletedDesc": {
+    "message": "Your account has been closed and all associated data has been deleted."
+  },
+  "myAccount": {
+    "message": "我的帳戶"
+  },
+  "tools": {
+    "message": "工具"
+  },
+  "importData": {
+    "message": "匯入資料"
+  },
+  "importSuccess": {
+    "message": "Data has been successfully imported into your vault."
+  },
+  "importFormatError": {
+    "message": "Data is not formatted correctly. Please check your import file and try again."
+  },
+  "importNothingError": {
+    "message": "沒有匯入任何內容。"
+  },
+  "selectFormat": {
+    "message": "選擇匯入檔案的格式"
+  },
+  "selectImportFile": {
+    "message": "選擇匯入檔案"
+  },
+  "orCopyPasteFileContents": {
+    "message": "or copy\/paste the import file contents"
+  },
+  "instructionsFor": {
+    "message": "$NAME$ Instructions",
+    "description": "The title for the import tool instructions.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "LastPass (csv)"
+      }
+    }
+  },
+  "options": {
+    "message": "選項"
+  },
+  "optionsDesc": {
+    "message": "Customize your web vault experience."
+  },
+  "optionsUpdated": {
+    "message": "選項已更新"
+  },
+  "language": {
+    "message": "語言"
+  },
+  "languageDesc": {
+    "message": "變更網頁版密碼庫使用的語言。"
+  },
+  "disableIcons": {
+    "message": "停用網站圖示"
+  },
+  "disableIconsDesc": {
+    "message": "在您密碼庫的每個登入資料旁顯示一個可辨識圖示。"
+  },
+  "enableGravatars": {
+    "message": "啟用 Gravatars 頭像",
+    "description": "'Gravatar' is the name of a service. See www.gravatar.com"
+  },
+  "enableGravatarsDesc": {
+    "message": "載入 gravatar.com 上的頭像圖片。"
+  },
+  "default": {
+    "message": "預設"
+  },
+  "domainRules": {
+    "message": "網域規則"
+  },
+  "domainRulesDesc": {
+    "message": "If you have the same login across multiple different website domains, you can mark the website as \"equivalent\". \"Global\" domains are ones already created for you by Bitwarden."
+  },
+  "globalEqDomains": {
+    "message": "Global Equivalent Domains"
+  },
+  "customEqDomains": {
+    "message": "Custom Equivalent Domains"
+  },
+  "exclude": {
+    "message": "排除"
+  },
+  "include": {
+    "message": "包含"
+  },
+  "customize": {
+    "message": "自訂"
+  },
+  "newCustomDomain": {
+    "message": "新增自訂網域"
+  },
+  "newCustomDomainDesc": {
+    "message": "Enter a list of domains separated by commas. Only \"base\" domains are allowed. Do not enter subdomains. For example, enter \"google.com\" instead of \"www.google.com\". You can also enter \"androidapp:\/\/package.name\" to associate an android app with other website domains."
+  },
+  "customDomainX": {
+    "message": "自訂網域 $INDEX$",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "domainsUpdated": {
+    "message": "網域已更新"
+  },
+  "twoStepLogin": {
+    "message": "兩步驟登入"
+  },
+  "twoStepLoginDesc": {
+    "message": "Secure your account by requiring an additional step when logging in."
+  },
+  "twoStepLoginOrganizationDesc": {
+    "message": "Require two-step login for your organization's users by configuring providers at the organization level."
+  },
+  "twoStepLoginRecoveryWarning": {
+    "message": "Enabling two-step login can permanently lock you out of your Bitwarden account. A recovery code allows you to access your account in the event that you can no longer use your normal two-step login provider (ex. you lose your device). Bitwarden support will not be able to assist you if you lose access to your account. We recommend you write down or print the recovery code and keep it in a safe place."
+  },
+  "viewRecoveryCode": {
+    "message": "檢視復原碼"
+  },
+  "providers": {
+    "message": "提供者",
+    "description": "Two-step login providers such as YubiKey, Duo, Authenticator apps, Email, etc."
+  },
+  "enable": {
+    "message": "啟用"
+  },
+  "enabled": {
+    "message": "已啟用"
+  },
+  "premium": {
+    "message": "進階版",
+    "description": "Premium Membership"
+  },
+  "premiumMembership": {
+    "message": "進階會員"
+  },
+  "premiumRequired": {
+    "message": "需要進階會員資格"
+  },
+  "premiumRequiredDesc": {
+    "message": "進階會員才可使用此功能。"
+  },
+  "youHavePremiumAccess": {
+    "message": "You have premium access"
+  },
+  "alreadyPremiumFromOrg": {
+    "message": "You already have access to premium features because of an organization you are a member of."
+  },
+  "manage": {
+    "message": "管理"
+  },
+  "disable": {
+    "message": "停用"
+  },
+  "twoStepLoginProviderEnabled": {
+    "message": "This two-step login provider is enabled on your account."
+  },
+  "twoStepLoginAuthDesc": {
+    "message": "Enter your master password to modify two-step login settings."
+  },
+  "twoStepAuthenticatorDesc": {
+    "message": "Follow these steps to set up two-step login with an authenticator app:"
+  },
+  "twoStepAuthenticatorDownloadApp": {
+    "message": "Download a two-step authenticator app"
+  },
+  "twoStepAuthenticatorNeedApp": {
+    "message": "Need a two-step authenticator app? Download one of the following"
+  },
+  "iosDevices": {
+    "message": "iOS 裝置"
+  },
+  "androidDevices": {
+    "message": "Android 裝置"
+  },
+  "windowsDevices": {
+    "message": "Windows 裝置"
+  },
+  "twoStepAuthenticatorAppsRecommended": {
+    "message": "These apps are recommended, however, other authenticator apps will also work."
+  },
+  "twoStepAuthenticatorScanCode": {
+    "message": "Scan this QR code with your authenticator app"
+  },
+  "key": {
+    "message": "金鑰"
+  },
+  "twoStepAuthenticatorEnterCode": {
+    "message": "Enter the resulting 6 digit verification code from the app"
+  },
+  "twoStepAuthenticatorReaddDesc": {
+    "message": "In case you need to add it to another device, below is the QR code (or key) required by your authenticator app."
+  },
+  "twoStepDisableDesc": {
+    "message": "您確定要停用兩步驟驗證嗎?"
+  },
+  "twoStepDisabled": {
+    "message": "Two-step login provider disabled."
+  },
+  "twoFactorYubikeyAdd": {
+    "message": "新增 YubiKey 身分認證裝置至您的帳戶。"
+  },
+  "twoFactorYubikeyPlugIn": {
+    "message": "Plug the YubiKey (NEO or 4 series) into your computer's USB port."
+  },
+  "twoFactorYubikeySelectKey": {
+    "message": "Select in the first empty YubiKey input field below."
+  },
+  "twoFactorYubikeyTouchButton": {
+    "message": "按下 YubiKey 的按鈕。"
+  },
+  "twoFactorYubikeySaveForm": {
+    "message": "儲存表單"
+  },
+  "twoFactorYubikeyWarning": {
+    "message": "Due to platform limitations, YubiKeys cannot be used on all Bitwarden applications. You should enable another two-step login provider so that you can access your account when YubiKeys cannot be used. Supported platforms:"
+  },
+  "twoFactorYubikeySupportUsb": {
+    "message": "Web vault, desktop application, CLI, and all browser extensions on a device with a USB port that can accept your YubiKey."
+  },
+  "twoFactorYubikeySupportMobile": {
+    "message": "Mobile apps on a device with NFC capabilities or a USB port that can accept your YubiKey."
+  },
+  "yubikeyX": {
+    "message": "YubiKey $INDEX$",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "nfcSupport": {
+    "message": "NFC 支援"
+  },
+  "twoFactorYubikeySupportsNfc": {
+    "message": "One of my keys supports NFC."
+  },
+  "twoFactorYubikeySupportsNfcDesc": {
+    "message": "If one of your YubiKeys supports NFC (such as a YubiKey NEO), you will be prompted on mobile devices whenever NFC availability is detected."
+  },
+  "yubikeysUpdated": {
+    "message": "YubiKeys 已更新"
+  },
+  "disableAllKeys": {
+    "message": "停用全部金鑰"
+  },
+  "twoFactorDuoDesc": {
+    "message": "Enter the Bitwarden application information from your Duo Admin panel."
+  },
+  "twoFactorDuoIntegrationKey": {
+    "message": "整合金鑰"
+  },
+  "twoFactorDuoSecretKey": {
+    "message": "秘密金鑰"
+  },
+  "twoFactorDuoApiHostname": {
+    "message": "API 主機名稱"
+  },
+  "twoFactorEmailDesc": {
+    "message": "Follow these steps to set up two-step login with email:"
+  },
+  "twoFactorEmailEnterEmail": {
+    "message": "Enter the email that you wish to receive verification codes"
+  },
+  "twoFactorEmailEnterCode": {
+    "message": "Enter the resulting 6 digit verification code from the email"
+  },
+  "sendEmail": {
+    "message": "傳送電子郵件"
+  },
+  "twoFactorU2fAdd": {
+    "message": "在您的帳戶中新增 FIDO U2F 安全金鑰"
+  },
+  "twoFactorU2fPlugIn": {
+    "message": "將安全金鑰插入電腦的 USB 連接埠。"
+  },
+  "twoFactorU2fTouchButton": {
+    "message": "If the security key has a button, touch it."
+  },
+  "twoFactorU2fWarning": {
+    "message": "Due to platform limitations, FIDO U2F cannot be used on all Bitwarden applications. You should enable another two-step login provider so that you can access your account when FIDO U2F cannot be used. Supported platforms:"
+  },
+  "twoFactorU2fSupportWeb": {
+    "message": "Web vault and browser extensions on a desktop\/laptop with a U2F enabled browser (Chrome, Opera, Vivaldi, or Firefox with FIDO U2F enabled)."
+  },
+  "twoFactorU2fWaiting": {
+    "message": "Waiting for you to touch the button on your security key"
+  },
+  "twoFactorU2fClickEnable": {
+    "message": "Click the \"Enable\" button below to enable this security key for two-step login."
+  },
+  "twoFactorU2fProblemReading": {
+    "message": "讀取安全金鑰時發生問題。"
+  },
+  "twoFactorRecoveryYourCode": {
+    "message": "您的 Bitwarden 兩步登入復原碼"
+  },
+  "twoFactorRecoveryNoCode": {
+    "message": "You have not enabled any two-step login providers yet. After you have enabled a two-step login provider you can check back here for your recovery code."
+  },
+  "printCode": {
+    "message": "列印代碼",
+    "description": "Print 2FA recovery code"
+  },
+  "reports": {
+    "message": "報告"
+  },
+  "dataBreachReport": {
+    "message": "Data Breach Report"
+  },
+  "breachDesc": {
+    "message": "A \"breach\" is an incident where a site's data has been illegally accessed by hackers and then released publicly. Review the types of data that were compromised (email addresses, passwords, credit cards etc.) and take appropriate action, such as changing passwords."
+  },
+  "breachCheckUsernameEmail": {
+    "message": "Check any usernames or email addresses that you use."
+  },
+  "checkBreaches": {
+    "message": "檢查密碼外洩情況"
+  },
+  "breachUsernameNotFound": {
+    "message": "在任何已知的外洩密碼資料庫中都找不到 $USERNAME$。",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "user@example.com"
+      }
+    }
+  },
+  "goodNews": {
+    "message": "好消息！",
+    "description": "ex. Good News, No Breached Accounts Found!"
+  },
+  "breachUsernameFound": {
+    "message": "$USERNAME$ 在不同的外洩密碼資料庫中找到了 $COUNT$ 次。",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "user@example.com"
+      },
+      "count": {
+        "content": "$2",
+        "example": "7"
+      }
+    }
+  },
+  "breachFound": {
+    "message": "Breached Accounts Found"
+  },
+  "compromisedData": {
+    "message": "遭洩漏的資料"
+  },
+  "website": {
+    "message": "網站"
+  },
+  "affectedUsers": {
+    "message": "受影響的使用者"
+  },
+  "breachOccurred": {
+    "message": "已發生外洩"
+  },
+  "breachReported": {
+    "message": "已回報外洩"
+  },
+  "reportError": {
+    "message": "An error occurred trying to load the report. Try again"
+  },
+  "billingAndLicensing": {
+    "message": "Billing & Licensing"
+  },
+  "goPremium": {
+    "message": "升級為進階版",
+    "description": "Another way of saying \"Get a premium membership\""
+  },
+  "premiumUpdated": {
+    "message": "您已升級至進階版"
+  },
+  "premiumUpgradeUnlockFeatures": {
+    "message": "將您的帳戶升級為進階版, 並解鎖更多方便的功能。"
+  },
+  "premiumSignUpStorage": {
+    "message": "1 GB 的加密檔案儲存空間。"
+  },
+  "premiumSignUpTwoStep": {
+    "message": "YubiKey，FIDO U2F 和 Duo 等額外的兩步驟登入選項。"
+  },
+  "premiumSignUpTotp": {
+    "message": "用於您的登入資料的 TOTP 驗證碼 (2FA) 產生器。"
+  },
+  "premiumSignUpSupport": {
+    "message": "優先客戶支援。"
+  },
+  "premiumSignUpFuture": {
+    "message": "未來會有更多進階功能，敬請期待！"
+  },
+  "premiumPrice": {
+    "message": "每年只需 $PRICE$ ！",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$10"
+      }
+    }
+  },
+  "addons": {
+    "message": "Addons"
+  },
+  "additionalStorageGb": {
+    "message": "額外的儲存空間 (GB)"
+  },
+  "additionalStorageGbDesc": {
+    "message": "# of additional GB"
+  },
+  "additionalStorageDesc": {
+    "message": "Your plan comes with $SIZE$ of encrypted file storage. You can add additional storage for $PRICE$ per GB \/year.",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "1 GB"
+      },
+      "price": {
+        "content": "$2",
+        "example": "$4.00"
+      }
+    }
+  },
+  "summary": {
+    "message": "摘要"
+  },
+  "total": {
+    "message": "總計"
+  },
+  "year": {
+    "message": "年"
+  },
+  "month": {
+    "message": "月"
+  },
+  "monthAbbr": {
+    "message": "月",
+    "description": "Short abbreviation for 'month'"
+  },
+  "paymentChargedAnnually": {
+    "message": "Your payment method will be charged immediately and on a recurring basis each year. You may cancel at any time."
+  },
+  "paymentChargedWithTrial": {
+    "message": "Your plan comes with a free 7 day trial. Your card will not be charged until the trial has ended and on a recurring basis each $INTERVAL$. You may cancel at any time.",
+    "placeholders": {
+      "interval": {
+        "content": "$1",
+        "example": "year"
+      }
+    }
+  },
+  "paymentInformation": {
+    "message": "付款資訊"
+  },
+  "creditCard": {
+    "message": "信用卡"
+  },
+  "paypalClickSubmit": {
+    "message": "Click the PayPal button to log into your PayPal account, then click the Submit button below to continue."
+  },
+  "cancelSubscription": {
+    "message": "取消訂閱"
+  },
+  "subscriptionCanceled": {
+    "message": "The subscription has been canceled."
+  },
+  "pendingCancellation": {
+    "message": "Pending Cancellation"
+  },
+  "subscriptionPendingCanceled": {
+    "message": "The subscription has been marked for cancellation at the end of the current billing period."
+  },
+  "reinstateSubscription": {
+    "message": "Reinstate Subscription"
+  },
+  "reinstateConfirmation": {
+    "message": "Are you sure you want to remove the pending cancellation request and reinstate your subscription?"
+  },
+  "reinstated": {
+    "message": "The subscription has been reinstated."
+  },
+  "cancelConfirmation": {
+    "message": "Are you sure you want to cancel? You will lose access to all of this subscription's features at the end of this billing cycle."
+  },
+  "canceledSubscription": {
+    "message": "The subscription has been canceled."
+  },
+  "neverExpires": {
+    "message": "絕不過期"
+  },
+  "status": {
+    "message": "狀態"
+  },
+  "nextCharge": {
+    "message": "Next Charge"
+  },
+  "details": {
+    "message": "詳細資料"
+  },
+  "downloadLicense": {
+    "message": "下載授權證"
+  },
+  "updateLicense": {
+    "message": "更新授權證"
+  },
+  "updatedLicense": {
+    "message": "授權證已更新"
+  },
+  "manageSubscription": {
+    "message": "管理訂閱"
+  },
+  "storage": {
+    "message": "儲存空間"
+  },
+  "addStorage": {
+    "message": "Add Storage"
+  },
+  "removeStorage": {
+    "message": "Remove Storage"
+  },
+  "subscriptionStorage": {
+    "message": "Your subscription has a total of $MAX_STORAGE$ GB of encrypted file storage. You are currently using $USED_STORAGE$.",
+    "placeholders": {
+      "max_storage": {
+        "content": "$1",
+        "example": "4"
+      },
+      "used_storage": {
+        "content": "$2",
+        "example": "65 MB"
+      }
+    }
+  },
+  "paymentMethod": {
+    "message": "付款方式"
+  },
+  "noPaymentMethod": {
+    "message": "No payment method on file."
+  },
+  "addPaymentMethod": {
+    "message": "新增付款方式"
+  },
+  "changePaymentMethod": {
+    "message": "變更付款方式"
+  },
+  "charges": {
+    "message": "收費",
+    "description": "Credit card charges\/payments."
+  },
+  "noCharges": {
+    "message": "不收費。"
+  },
+  "chargesStatement": {
+    "message": "Any charges will appear on your statement as $STATEMENT_NAME$.",
+    "placeholders": {
+      "statement_name": {
+        "content": "$1",
+        "example": "BITWARDEN"
+      }
+    }
+  },
+  "gbStorageAdd": {
+    "message": "GB of Storage To Add"
+  },
+  "gbStorageRemove": {
+    "message": "GB of Storage To Remove"
+  },
+  "storageAddNote": {
+    "message": "Adding storage will result in adjustments to your billing totals and immediately charge your payment method on file. The first charge will be prorated for the remainder of the current billing cycle."
+  },
+  "storageRemoveNote": {
+    "message": "Removing storage will result in adjustments to your billing totals that will be prorated as credits toward your next billing charge."
+  },
+  "adjustedStorage": {
+    "message": "Adjusted $AMOUNT$ GB of storage.",
+    "placeholders": {
+      "amount": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "contactSupport": {
+    "message": "Contact Customer Support"
+  },
+  "contactSupportPaymentMethod": {
+    "message": "If you would like to change from this payment method please contact customer support."
+  },
+  "updatedPaymentMethod": {
+    "message": "已更新付款方式。"
+  },
+  "purchasePremium": {
+    "message": "購買進階會員資格"
+  },
+  "licenseFile": {
+    "message": "授權檔案"
+  },
+  "licenseFileDesc": {
+    "message": "您的授權檔案將被命名為類似 $FILE_NAME$ 的名稱",
+    "placeholders": {
+      "file_name": {
+        "content": "$1",
+        "example": "bitwarden_premium_license.json"
+      }
+    }
+  },
+  "uploadLicenseFilePremium": {
+    "message": "您需要上傳有效的授權檔案來升級為進階會員資格 。"
+  },
+  "uploadLicenseFileOrg": {
+    "message": "To create an on-premise hosted organization you need to upload a valid license file."
+  },
+  "accountEmailMustBeVerified": {
+    "message": "Your account's email address must be verified."
+  },
+  "newOrganizationDesc": {
+    "message": "Organizations allow you to share parts of your vault with others as well as manage related users for a specific entity such as a family, small team, or large company."
+  },
+  "generalInformation": {
+    "message": "一般資訊"
+  },
+  "organizationName": {
+    "message": "組織名稱"
+  },
+  "accountOwnedBusiness": {
+    "message": "This account is owned by a business."
+  },
+  "billingEmail": {
+    "message": "電子郵件帳單"
+  },
+  "businessName": {
+    "message": "公司名稱"
+  },
+  "chooseYourPlan": {
+    "message": "選擇您的方案"
+  },
+  "users": {
+    "message": "使用者"
+  },
+  "userSeats": {
+    "message": "User Seats"
+  },
+  "additionalUserSeats": {
+    "message": "Additional User Seats"
+  },
+  "userSeatsDesc": {
+    "message": "# of user seats"
+  },
+  "userSeatsAdditionalDesc": {
+    "message": "Your plan comes with $BASE_SEATS$ user seats. You can add additional users for $SEAT_PRICE$ per user \/month.",
+    "placeholders": {
+      "base_seats": {
+        "content": "$1",
+        "example": "5"
+      },
+      "seat_price": {
+        "content": "$2",
+        "example": "$2.00"
+      }
+    }
+  },
+  "userSeatsHowManyDesc": {
+    "message": "How many user seats do you need? You can also add additional seats later if needed."
+  },
+  "planNameFree": {
+    "message": "免費",
+    "description": "Free as in 'free beer'."
+  },
+  "planDescFree": {
+    "message": "For testing or personal users to share with $COUNT$ other user.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "planNameFamilies": {
+    "message": "家庭"
+  },
+  "planDescFamilies": {
+    "message": "For personal use, to share with family & friends."
+  },
+  "planNameTeams": {
+    "message": "團隊"
+  },
+  "planDescTeams": {
+    "message": "For businesses and other team organizations."
+  },
+  "planNameEnterprise": {
+    "message": "企業"
+  },
+  "planDescEnterprise": {
+    "message": "For businesses and other large organizations."
+  },
+  "freeForever": {
+    "message": "永遠免費"
+  },
+  "includesXUsers": {
+    "message": "includes $COUNT$ users",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "additionalUsers": {
+    "message": "Additional Users"
+  },
+  "costPerUser": {
+    "message": "每位使用者 $COST$",
+    "placeholders": {
+      "cost": {
+        "content": "$1",
+        "example": "$3"
+      }
+    }
+  },
+  "limitedUsers": {
+    "message": "Limited to $COUNT$ users (including you)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "limitedCollections": {
+    "message": "Limited to $COUNT$ collections",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "addShareLimitedUsers": {
+    "message": "Add and share with up to $COUNT$ users",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "addShareUnlimitedUsers": {
+    "message": "Add and share with unlimited users"
+  },
+  "createUnlimitedCollections": {
+    "message": "Create unlimited collections"
+  },
+  "gbEncryptedFileStorage": {
+    "message": "$SIZE$ encrypted file storage",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "1 GB"
+      }
+    }
+  },
+  "onPremHostingOptional": {
+    "message": "On-premise hosting (optional)"
+  },
+  "usersGetPremium": {
+    "message": "Users get access to premium membership features"
+  },
+  "controlAccessWithGroups": {
+    "message": "Control user access with groups"
+  },
+  "syncUsersFromDirectory": {
+    "message": "Sync your users and groups from a directory"
+  },
+  "trackAuditLogs": {
+    "message": "Track user actions with audit logs"
+  },
+  "enforce2faDuo": {
+    "message": "強制使用 Duo 兩步驟驗證"
+  },
+  "priorityCustomerSupport": {
+    "message": "優先客戶支援"
+  },
+  "xDayFreeTrial": {
+    "message": "$COUNT$ day free trial, cancel anytime",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "monthly": {
+    "message": "每月"
+  },
+  "annually": {
+    "message": "每年"
+  },
+  "basePrice": {
+    "message": "基本價格"
+  },
+  "organizationCreated": {
+    "message": "已建立組織"
+  },
+  "organizationReadyToGo": {
+    "message": "Your new organization is ready to go!"
+  },
+  "leave": {
+    "message": "離開"
+  },
+  "leaveOrganizationConfirmation": {
+    "message": "Are you sure you want to leave this organization?"
+  },
+  "leftOrganization": {
+    "message": "You have left the organization."
+  },
+  "defaultCollection": {
+    "message": "預設收藏"
+  },
+  "getHelp": {
+    "message": "尋求幫助"
+  },
+  "getApps": {
+    "message": "取得應用程式"
+  },
+  "loggedInAs": {
+    "message": "已登入為"
+  },
+  "eventLogs": {
+    "message": "事件記錄"
+  },
+  "people": {
+    "message": "人員"
+  },
+  "groups": {
+    "message": "群組"
+  },
+  "newGroup": {
+    "message": "新增群組"
+  },
+  "addGroup": {
+    "message": "新增群組"
+  },
+  "editGroup": {
+    "message": "編輯群組"
+  },
+  "deleteGroupConfirmation": {
+    "message": "您確定要刪除這個群組？"
+  },
+  "removeUserConfirmation": {
+    "message": "您確定要移除該使用者？"
+  },
+  "externalId": {
+    "message": "External Id"
+  },
+  "externalIdGroupDesc": {
+    "message": "The external id is used to link this group to an external system such as a user directory."
+  },
+  "accessControl": {
+    "message": "存取控制"
+  },
+  "groupAccessAllItems": {
+    "message": "This group can access and modify all items."
+  },
+  "groupAccessSelectedCollections": {
+    "message": "This group can access only the selected collections."
+  },
+  "readOnly": {
+    "message": "唯讀"
+  },
+  "newCollection": {
+    "message": "New Collection"
+  },
+  "addCollection": {
+    "message": "Add Collection"
+  },
+  "editCollection": {
+    "message": "編輯收藏"
+  },
+  "deleteCollectionConfirmation": {
+    "message": "Are you sure you want to delete this collection?"
+  },
+  "editUser": {
+    "message": "編輯使用者"
+  },
+  "inviteUser": {
+    "message": "邀請使用者"
+  },
+  "inviteUserDesc": {
+    "message": "Invite a new user to your organization by entering their Bitwarden account email address below. If they do not have a Bitwarden account already, they will be prompted to create a new account."
+  },
+  "inviteMultipleEmailDesc": {
+    "message": "You can invite up to $COUNT$ users at a time by comma separating a list of email addresses.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "userAccessAllItems": {
+    "message": "This user can access and modify all items."
+  },
+  "userAccessSelectedCollections": {
+    "message": "This user can access only the selected collections."
+  },
+  "search": {
+    "message": "搜尋"
+  },
+  "invited": {
+    "message": "已邀請"
+  },
+  "accepted": {
+    "message": "已接受"
+  },
+  "confirmed": {
+    "message": "已確認"
+  },
+  "owner": {
+    "message": "擁有者"
+  },
+  "ownerDesc": {
+    "message": "The highest access user that can manage all aspects of your organization."
+  },
+  "admin": {
+    "message": "管理員"
+  },
+  "adminDesc": {
+    "message": " Admins can access and manage all items, collections and users in your organization."
+  },
+  "user": {
+    "message": "使用者"
+  },
+  "userDesc": {
+    "message": "A regular user with access to your organization's collections."
+  },
+  "all": {
+    "message": "全部"
+  },
+  "refresh": {
+    "message": "重新整理"
+  },
+  "timestamp": {
+    "message": "時間戳記"
+  },
+  "event": {
+    "message": "事件"
+  },
+  "unknown": {
+    "message": "不詳"
+  },
+  "loadMore": {
+    "message": "載入更多"
+  },
+  "mobile": {
+    "message": "手機版應用程式",
+    "description": "Mobile app"
+  },
+  "extension": {
+    "message": "擴充套件",
+    "description": "Browser extension\/addon"
+  },
+  "desktop": {
+    "message": "電腦版應用程式",
+    "description": "Desktop app"
+  },
+  "webVault": {
+    "message": "網頁版密碼庫"
+  },
+  "loggedIn": {
+    "message": "已登入。"
+  },
+  "changedPassword": {
+    "message": "Changed account password."
+  },
+  "enabled2fa": {
+    "message": "Enabled two-step login."
+  },
+  "disabled2fa": {
+    "message": "Disabled two-step login."
+  },
+  "recovered2fa": {
+    "message": "Recovered account from two-step login."
+  },
+  "failedLogin": {
+    "message": "Login attempt failed with incorrect password."
+  },
+  "failedLogin2fa": {
+    "message": "Login attempt failed with incorrect two-step login."
+  },
+  "editedOrgSettings": {
+    "message": "Edited organization settings."
+  },
+  "createdItemId": {
+    "message": "已建立項目 $ID$。",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Google"
+      }
+    }
+  },
+  "editedItemId": {
+    "message": "已編輯項目 $ID$。",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Google"
+      }
+    }
+  },
+  "deletedItemId": {
+    "message": "已刪除項目 $ID$。",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Google"
+      }
+    }
+  },
+  "sharedItemId": {
+    "message": "已分享項目 $ID$。",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "'Google'"
+      }
+    }
+  },
+  "createdCollectionId": {
+    "message": "Created collection $ID$.",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Server Passwords"
+      }
+    }
+  },
+  "editedCollectionId": {
+    "message": "Edited collection $ID$.",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Server Passwords"
+      }
+    }
+  },
+  "deletedCollectionId": {
+    "message": "Deleted collection $ID$.",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Server Passwords"
+      }
+    }
+  },
+  "createdGroupId": {
+    "message": "已建立群組 $ID$。",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Developers"
+      }
+    }
+  },
+  "editedGroupId": {
+    "message": "已編輯群組 $ID$。",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Developers"
+      }
+    }
+  },
+  "deletedGroupId": {
+    "message": "已刪除群組 $ID$。",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Developers"
+      }
+    }
+  },
+  "removedUserId": {
+    "message": "已移除使用者 $ID$。",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "John Smith"
+      }
+    }
+  },
+  "createdAttachmentForItem": {
+    "message": "Created attachment for item $ID$.",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Google"
+      }
+    }
+  },
+  "deletedAttachmentForItem": {
+    "message": "Deleted attachment for item $ID$.",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Google"
+      }
+    }
+  },
+  "editedCollectionsForItem": {
+    "message": "Edited collections for item $ID$.",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "Google"
+      }
+    }
+  },
+  "invitedUserId": {
+    "message": "Invited user $ID$.",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "John Smith"
+      }
+    }
+  },
+  "confirmedUserId": {
+    "message": "Confirmed user $ID$.",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "John Smith"
+      }
+    }
+  },
+  "editedUserId": {
+    "message": "已編輯使用者 $ID$。",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "John Smith"
+      }
+    }
+  },
+  "editedGroupsForUser": {
+    "message": "Edited groups for user $ID$.",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "John Smith"
+      }
+    }
+  },
+  "device": {
+    "message": "裝置"
+  },
+  "view": {
+    "message": "檢視"
+  },
+  "invalidDateRange": {
+    "message": "無效的日期範圍。"
+  },
+  "errorOccurred": {
+    "message": "發生錯誤。"
+  },
+  "userAccess": {
+    "message": "使用者存取"
+  },
+  "userType": {
+    "message": "使用者類型"
+  },
+  "groupAccess": {
+    "message": "群組存取"
+  },
+  "groupAccessUserDesc": {
+    "message": "Edit the groups that this user belongs to."
+  },
+  "invitedUsers": {
+    "message": "Invited user(s)."
+  },
+  "resendInvitation": {
+    "message": "重新傳送邀請"
+  },
+  "hasBeenReinvited": {
+    "message": "$USER$ has been reinvited.",
+    "placeholders": {
+      "user": {
+        "content": "$1",
+        "example": "John Smith"
+      }
+    }
+  },
+  "confirm": {
+    "message": "確認"
+  },
+  "hasBeenConfirmed": {
+    "message": "$USER$ has been confirmed.",
+    "placeholders": {
+      "user": {
+        "content": "$1",
+        "example": "John Smith"
+      }
+    }
+  },
+  "confirmUsers": {
+    "message": "確認使用者"
+  },
+  "usersNeedConfirmed": {
+    "message": "You have users that have accepted their invitation, but still need to be confirmed. Users will not have access to the organization until they are confirmed."
+  },
+  "startDate": {
+    "message": "開始日期"
+  },
+  "endDate": {
+    "message": "结束日期"
+  },
+  "verifyEmail": {
+    "message": "驗證電子郵件"
+  },
+  "verifyEmailDesc": {
+    "message": "Verify your account's email address to unlock access to all features."
+  },
+  "verifyEmailFirst": {
+    "message": "Your account's email address first must be verified."
+  },
+  "checkInboxForVerification": {
+    "message": "Check your email inbox for a verification link."
+  },
+  "emailVerified": {
+    "message": "Your email has been verified."
+  },
+  "emailVerifiedFailed": {
+    "message": "Unable to verify your email. Try sending a new verification email."
+  },
+  "updateBrowser": {
+    "message": "更新瀏覽器"
+  },
+  "updateBrowserDesc": {
+    "message": "You are using an unsupported web browser. The web vault may not function properly."
+  },
+  "joinOrganization": {
+    "message": "加入組織"
+  },
+  "joinOrganizationDesc": {
+    "message": "You've been invited to join the organization listed above. To accept the invitation, you need to log in or create a new Bitwarden account."
+  },
+  "inviteAccepted": {
+    "message": "邀請已接受"
+  },
+  "inviteAcceptedDesc": {
+    "message": "You can access this organization once an administrator confirms your membership. We'll send you an email when that happens."
+  },
+  "inviteAcceptFailed": {
+    "message": "Unable to accept invitation. Ask an organization admin to send a new invitation."
+  },
+  "rememberEmail": {
+    "message": "記住電子郵件地址"
+  },
+  "recoverAccountTwoStepDesc": {
+    "message": "If you cannot access your account through your normal two-step login methods, you can use your two-step login recovery code to disable all two-step providers on your account."
+  },
+  "recoverAccountTwoStep": {
+    "message": "Recover Account Two-Step Login"
+  },
+  "twoStepRecoverDisabled": {
+    "message": "Two-step login has been disabled on your account."
+  },
+  "learnMore": {
+    "message": "了解更多"
+  },
+  "deleteRecoverDesc": {
+    "message": "Enter your email address below to recover and delete your account."
+  },
+  "deleteRecoverEmailSent": {
+    "message": "If your account exists, we've sent you an email with further instructions."
+  },
+  "deleteRecoverConfirmDesc": {
+    "message": "You have requested to delete your Bitwarden account. Click the button below to confirm."
+  },
+  "myOrganization": {
+    "message": "我的組織"
+  },
+  "deleteOrganization": {
+    "message": "刪除組織"
+  },
+  "deleteOrganizationDesc": {
+    "message": "Proceed below to delete this organization and all associated data. Individual user accounts will remain, though they will not be associated to this organization anymore. "
+  },
+  "deleteOrganizationWarning": {
+    "message": "Deleting the organization is permanent. It cannot be undone."
+  },
+  "organizationDeleted": {
+    "message": "Organization Deleted"
+  },
+  "organizationDeletedDesc": {
+    "message": "The organization and all associated data has been deleted."
+  },
+  "organizationUpdated": {
+    "message": "組織已更新"
+  },
+  "taxInformation": {
+    "message": "稅務資訊"
+  },
+  "taxInformationDesc": {
+    "message": "Please contact support to provide (or update) tax information for your invoices."
+  },
+  "billingPlan": {
+    "message": "方案",
+    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+  },
+  "changeBillingPlan": {
+    "message": "變更方案",
+    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+  },
+  "changeBillingPlanDesc": {
+    "message": "Contact customer support if you would like to change your plan. Please ensure that you have an active payment method added to the account.",
+    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+  },
+  "invoice": {
+    "message": "發票"
+  },
+  "verifyBankAccount": {
+    "message": "Verify Bank Account"
+  },
+  "verifyBankAccountDesc": {
+    "message": "We have made two micro-deposits to your bank account (it may take 1-2 business days to show up). Enter these amounts to verify the bank account."
+  },
+  "verifyBankAccountInitialDesc": {
+    "message": "Payment with a bank account is only available to customers in the United States. You will be required to verify your bank account. We will make two micro-deposits within the next 1-2 business days. Enter these amounts on the organization's billing page to verify the bank account."
+  },
+  "verifyBankAccountFailureWarning": {
+    "message": "Failure to verify the bank account will result in a missed payment and your subscription being disabled."
+  },
+  "verifiedBankAccount": {
+    "message": "Bank account has been verified."
+  },
+  "bankAccount": {
+    "message": "銀行帳戶"
+  },
+  "amountX": {
+    "message": "Amount $COUNT$",
+    "description": "Used in bank account verification of micro-deposits. Amount, as in a currency amount. Ex. Amount 1 is $2.00, Amount 2 is $1.50",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "routingNumber": {
+    "message": "Routing Number",
+    "description": "Bank account routing number"
+  },
+  "accountNumber": {
+    "message": "Account Number"
+  },
+  "accountHolderName": {
+    "message": "Account Holder Name"
+  },
+  "bankAccountType": {
+    "message": "帳戶類型"
+  },
+  "bankAccountTypeCompany": {
+    "message": "Company (Business)"
+  },
+  "bankAccountTypeIndividual": {
+    "message": "Individual (Personal)"
+  },
+  "enterInstallationId": {
+    "message": "Enter your installation id"
+  },
+  "addSeats": {
+    "message": "Add Seats",
+    "description": "Seat = User Seat"
+  },
+  "removeSeats": {
+    "message": "Remove Seats",
+    "description": "Seat = User Seat"
+  },
+  "subscriptionUserSeats": {
+    "message": "Your subscription allows for a total of $COUNT$ users.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "seatsToAdd": {
+    "message": "Seats To Add"
+  },
+  "seatsToRemove": {
+    "message": "Seats To Remove"
+  },
+  "seatsAddNote": {
+    "message": "Adding user seats will result in adjustments to your billing totals and immediately charge your payment method on file. The first charge will be prorated for the remainder of the current billing cycle."
+  },
+  "seatsRemoveNote": {
+    "message": "Removing user seats will result in adjustments to your billing totals that will be prorated as credits toward your next billing charge."
+  },
+  "adjustedSeats": {
+    "message": "Adjusted $AMOUNT$ user seats.",
+    "placeholders": {
+      "amount": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "keyUpdated": {
+    "message": "金鑰已更新"
+  },
+  "updateKeyTitle": {
+    "message": "更新金鑰"
+  },
+  "updateEncryptionKey": {
+    "message": "Update Encryption Key"
+  },
+  "updateEncryptionKeyShortDesc": {
+    "message": "You are currently using an outdated encryption scheme."
+  },
+  "updateEncryptionKeyDesc": {
+    "message": "We've moved to larger encryption keys that provide better security and access to newer features. Updating your encryption key is quick and easy. Just type your master password below. This update will eventually become mandatory."
+  },
+  "updateEncryptionKeyWarning": {
+    "message": "After updating your encryption key, you are required to log out and back in to all Bitwarden applications that you are currently using (such as the mobile app or browser extensions). Failure to log out and back in (which downloads your new encryption key) may result in data corruption. We will attempt to log you out automatically, however, it may be delayed."
+  },
+  "subscription": {
+    "message": "訂閱"
+  },
+  "loading": {
+    "message": "正在載入"
+  },
+  "upgrade": {
+    "message": "升級"
+  },
+  "upgradeOrganization": {
+    "message": "Upgrade Organization"
+  },
+  "upgradeOrganizationDesc": {
+    "message": "This feature is not available for free organizations. Switch to a paid plan to unlock more features."
+  },
+  "createOrganizationStep1": {
+    "message": "建立組織：步驟 1"
+  },
+  "createOrganizationCreatePersonalAccount": {
+    "message": "Before creating your organization, you first need to create a free personal account."
+  },
+  "refunded": {
+    "message": "已退款"
+  },
+  "nothingSelected": {
+    "message": "You have not selected anything."
+  },
+  "submitAgreePolicies": {
+    "message": "一旦您按下「送出」，表示您同意以下條款：",
+    "description": "A policy is something like Terms of Service, Privacy Policy, etc."
+  },
+  "termsOfService": {
+    "message": "服務條款"
+  },
+  "privacyPolicy": {
+    "message": "隱私權政策"
+  },
+  "filters": {
+    "message": "篩選器"
+  },
+  "lockOptions": {
+    "message": "自動鎖定時間"
+  },
+  "lockOptionsDesc": {
+    "message": "選擇密碼庫的自動鎖定時間。鎖定後需要重新輸入主密碼才能再次存取密碼庫。"
+  },
+  "oneMinute": {
+    "message": "1 分鐘"
+  },
+  "fiveMinutes": {
+    "message": "5 分鐘"
+  },
+  "fifteenMinutes": {
+    "message": "15 分鐘"
+  },
+  "thirtyMinutes": {
+    "message": "30 分鐘"
+  },
+  "oneHour": {
+    "message": "1 小時"
+  },
+  "fourHours": {
+    "message": "4 小時"
+  },
+  "onRefresh": {
+    "message": "於瀏覽器重新重新整理時"
+  },
+  "dateUpdated": {
+    "message": "已更新",
+    "description": "ex. Date this item was updated"
+  },
+  "datePasswordUpdated": {
+    "message": "密碼已更新",
+    "description": "ex. Date this password was updated"
+  },
+  "organizationIsDisabled": {
+    "message": "Organization is disabled."
+  },
+  "licenseIsExpired": {
+    "message": "授權已過期。"
+  }
+}
