@@ -1229,7 +1229,7 @@
     "message": "Read Key"
   },
   "twoFactorU2fGiveName": {
-    "message": "Give the security key a friendly name to identity it."
+    "message": "Give the security key a friendly name."
   },
   "twoFactorU2fPlugInReadKey": {
     "message": "Plug the security key into your computer's USB port and click the \"Read Key\" button."
